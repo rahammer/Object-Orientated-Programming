@@ -1,4 +1,26 @@
-The minimum integer is 0
-The sum of the positive integers is 0
-The sum of the odd integers is 0
-The count of positive integers in the sequence is 0
+Choice		Action
+------		------
+A		Add a Car
+D		Display Car
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter the car information:
+Who is the car's manufacturer?
+What is the car brand?
+Which country is the car made?
+what year was the car made?
+What color is the car?
+How much was the car's price?
+What action would you like to perform?
+
+
+Country:	USA
+Manufacturer:	Ford	
+Brand:		Explorer		
+Year:		2015
+Color:		Silver
+Price:		30700.82
+
+What action would you like to perform?

@@ -1,4 +1,46 @@
-The minimum integer is -5
-The sum of the positive integers is 19
-The sum of the odd integers is 9
-The count of positive integers in the sequence is 3
+Choice		Action
+------		------
+A		Add a Car
+D		Display Car
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter the car information:
+Who is the car's manufacturer?
+What is the car brand?
+Which country is the car made?
+what year was the car made?
+What color is the car?
+How much was the car's price?
+What action would you like to perform?
+
+
+Country:	Japan
+Manufacturer:	Toyota
+Brand:		Camry
+Year:		2008
+Color:		White
+Price:		22038.16
+
+What action would you like to perform?
+Unknown action
+What action would you like to perform?
+Please enter the car information:
+Who is the car's manufacturer?
+What is the car brand?
+Which country is the car made?
+what year was the car made?
+What color is the car?
+How much was the car's price?
+What action would you like to perform?
+
+
+Country:	USA
+Manufacturer:	Tesla
+Brand:		ModelS
+Year:		2015
+Color:		Black
+Price:		75000.0
+
+What action would you like to perform?
