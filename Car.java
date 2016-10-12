@@ -1,74 +1,77 @@
-public class Car{
-	private String year;
-	private String color;
-	private double price = 0.0;
+// Assignment #: Arizona State University CSE205 #6
+//         Name: Robert Hammerschmidt
+//    StudentID: 1207364973
+//      Lecture: MWF 9AM-9:50AM
+//  Description: The Car class represent a car with information
+//  such as its manufacturer, brand, year and price.
 
-	Makes firstMakes = new Makes();
-	/**
-    * Accesses the String year and creates a return String
-    * @return year
-    */
-	public String getYear()
-	{
-		return year;
-	}
-	/**
-    * Accesses the String color and creates a return String
-    * @return color
-    */
-	public String getColor()
-	{
-		return color;
-	}
-	/**
-    * Accesses the double price and creates a return String
-    * @return price
-    */
-	public double getPrice()
-	{
-		return price;
-	}
-	/**
-    * Sets the string year to the input received from main
-    * @param nYear
-    */
-	public void setYear(String nYear)
-	{
-		this.year = nYear;
-	}
-	/**
-    * Sets the string color to the input received from main
-    * @param nColor
-    */
-	public void setColor(String nColor)
-	{
-		this.color = nColor;
-	}
-	/**
-    * Sets the double price to the input received from main
-    * @param nPrice
-    */
-	public void setPrice(double nPrice)
-	{
-		this.price = nPrice;
-	}
-	/**
-    * Acquires Strings from main and sends them to Makes' set methods
-    * @param nBrand, nManufac, nBrand
-    */
-	public void setMakes(String nCountry, String nManufac, String nBrand)
-	{
-		firstMakes.setCountry(nCountry);
-		firstMakes.setManufac(nManufac);
-		firstMakes.setBrand(nBrand);
-	}
-	/**
-    * Converts values into a string.
-    */
-	public String toString()
-	{
-		return "\n" + firstMakes + "Year:\t\t" + getYear() + "\nColor:\t\t" +
-		getColor() + "\nPrice:\t\t" + getPrice()+ "\n\n";
-	}
+import java.text.DecimalFormat;
 
-}
+public class Car
+{
+   //The instance variables of the Car
+   private String manufacturer;
+   private String brandName;
+   private int year;
+   private double price;
+
+   //Constructor method:
+   //It initializes all instance variables to their default values.
+
+   public Car()
+   {
+      manufacturer = new String("?");
+      brandName = new String("?");
+      year = 0;
+      price = 0.0;
+   }
+
+   //Overloaded constructor, used to initialize all instance varibles
+   public Car(String nManufacturer, String nBrandName, int nYear, double nPrice)
+   {
+      manufacturer = nManufacturer;
+      brandName =nBrandName ;
+      year = nYear;
+      price = nPrice;
+   }
+
+   //Accessor method of the instance variable manufacturer
+   public String getManufacturer()
+   {
+      return manufacturer;
+   }
+
+   //Accessor method of the instance variable brandName
+   public String getBrandName()
+   {
+      return brandName;
+   }
+
+   //Accessor method of the instance variable year
+   public int getYear()
+   {
+      return year;
+   }
+
+
+   //Accessor method of the instance variable price
+   public double getPrice()
+   {
+      return price;
+   }
+
+   //toString method creates a string containing values of
+   //instance variables using the specified format
+   public String toString()
+   {
+      DecimalFormat fmt1 = new DecimalFormat("$0.00");
+      String result = "\nManufacturer:\t" + manufacturer + "\n" +
+            "Brand Name:\t" + brandName + "\n" +
+            "Year:\t" + year + "\n" +
+            "Price:\t"+ fmt1.format(price)+ "\n\n";
+
+      return result;
+
+   }
+
+} //end of the Car class
