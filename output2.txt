@@ -1,68 +1,37 @@
 Choice		Action
 ------		------
-O		List Current Size
-I		Search Element
-E		Get Element by Index
-S		Set Element by Index
-A		Insert Element by Index
-R		Remove Element by Index
-C		Count How Many
-D		Remove Duplicates
-P		Append at the End
-T		Append After
-V		Reverse First Few
-L		List Linked List
+E		Enter String
 Q		Quit
 ?		Display Help
 
 What action would you like to perform?
-Please enter a string to add:
-Please enter an index to add:
-Ant is inserted at index 0
+Please enter a string.
+The Postfix Expression is: AB+
 What action would you like to perform?
-Please enter a string to add:
-Please enter an index to add:
-Cow is inserted at index 1
+Please enter a string.
+The Postfix Expression is: CD+
 What action would you like to perform?
-Please enter a string to add:
-Please enter an index to add:
-Hen is inserted at index 2
+Please enter a string.
+The Postfix Expression is: EF-
 What action would you like to perform?
-Please enter a string to add:
-Please enter an index to add:
-Ant is inserted at index 3
+Please enter a string.
+No matching close parenthesis error
 What action would you like to perform?
-Please enter a string to add:
-Please enter an index to add:
-Cow is inserted at index 4
+Please enter a string.
+The Postfix Expression is: AB+
 What action would you like to perform?
-Please enter a string to add:
-Please enter an index to add:
-Ant is inserted at index 5
+Please enter a string.
+No matching open parenthesis error
 What action would you like to perform?
-{ Ant Cow Hen Ant Cow Ant }
+Please enter a string.
+No matching close parenthesis error
 What action would you like to perform?
-Please enter a string to count:
-There are 3 Ant found inside the linked list
+Please enter a string.
+No matching open parenthesis error
 What action would you like to perform?
-Please enter a string to count:
-There are 2 Cow found inside the linked list
+Please enter a string.
+No matching open parenthesis error
 What action would you like to perform?
-Please enter a string to count:
-There are 0 Wolf found inside the linked list
-What action would you like to perform?
-Please enter a string to remove:
-Cow is removed from the linked list
-What action would you like to perform?
-{ Ant Hen Ant Ant }
-What action would you like to perform?
-Please enter a string to remove:
-Bird is removed from the linked list
-What action would you like to perform?
-{ Ant Hen Ant Ant }
-What action would you like to perform?
-Please enter an index to remove:
-string at index 2 is removed
-What action would you like to perform?
-{ Ant Hen Ant }
+Please enter a string.
+The Postfix Expression is: ABC-/DE-F*+G/HI+*JK/-
 What action would you like to perform?
