@@ -1,62 +1,68 @@
 Choice		Action
 ------		------
-A		Add Product
-C		Compute Total Costs
-S		Search for Product
-L		List Products
+O		List Current Size
+I		Search Element
+E		Get Element by Index
+S		Set Element by Index
+A		Insert Element by Index
+R		Remove Element by Index
+C		Count How Many
+D		Remove Duplicates
+P		Append at the End
+T		Append After
+V		Reverse First Few
+L		List Linked List
 Q		Quit
 ?		Display Help
 
 What action would you like to perform?
-Please enter a product information to add:
+Please enter a string to add:
+Please enter an index to add:
+Ant is inserted at index 0
 What action would you like to perform?
-Please enter a product information to add:
+Please enter a string to add:
+Please enter an index to add:
+Cow is inserted at index 1
 What action would you like to perform?
-
-Food:
-Product ID:		F0011
-Quantity:		350
-Unit Price:		$0.21
-Total Cost:		$0.00
-Food Name:		Banana
-Damage Rate:		9.30%
-Expiration date:	09.28.2015
-
-
-Clothing:
-Product ID:		C0001
-Quantity:		30
-Unit Price:		$19.99
-Total Cost:		$0.00
-Size:			Medium
-Color:			Blue
-
+Please enter a string to add:
+Please enter an index to add:
+Hen is inserted at index 2
 What action would you like to perform?
-Please enter a productId to search:
-product not found
+Please enter a string to add:
+Please enter an index to add:
+Ant is inserted at index 3
 What action would you like to perform?
-Please enter a productId to search:
-product found
+Please enter a string to add:
+Please enter an index to add:
+Cow is inserted at index 4
 What action would you like to perform?
-total costs computed
+Please enter a string to add:
+Please enter an index to add:
+Ant is inserted at index 5
 What action would you like to perform?
-
-Food:
-Product ID:		F0011
-Quantity:		350
-Unit Price:		$0.21
-Total Cost:		$80.34
-Food Name:		Banana
-Damage Rate:		9.30%
-Expiration date:	09.28.2015
-
-
-Clothing:
-Product ID:		C0001
-Quantity:		30
-Unit Price:		$19.99
-Total Cost:		$599.70
-Size:			Medium
-Color:			Blue
-
+{ Ant Cow Hen Ant Cow Ant }
+What action would you like to perform?
+Please enter a string to count:
+There are 3 Ant found inside the linked list
+What action would you like to perform?
+Please enter a string to count:
+There are 2 Cow found inside the linked list
+What action would you like to perform?
+Please enter a string to count:
+There are 0 Wolf found inside the linked list
+What action would you like to perform?
+Please enter a string to remove:
+Cow is removed from the linked list
+What action would you like to perform?
+{ Ant Hen Ant Ant }
+What action would you like to perform?
+Please enter a string to remove:
+Bird is removed from the linked list
+What action would you like to perform?
+{ Ant Hen Ant Ant }
+What action would you like to perform?
+Please enter an index to remove:
+string at index 2 is removed
+What action would you like to perform?
+{ Ant Hen Ant }
 What action would you like to perform?
