@@ -1,54 +1,89 @@
 Choice		Action
 ------		------
-A		Add a Car
-D		Display Car
+A		Add Product
+C		Compute Total Costs
+S		Search for Product
+L		List Products
 Q		Quit
 ?		Display Help
 
 What action would you like to perform?
-Please enter the car information:
-Who is the car's manufacturer?
-What is the car brand?
-Which country is the car made?
-what year was the car made?
-What color is the car?
-How much was the car's price?
+no product
+What action would you like to perform?
+Please enter a product information to add:
+What action would you like to perform?
+Please enter a product information to add:
+What action would you like to perform?
+Please enter a product information to add:
+What action would you like to perform?
+total costs computed
 What action would you like to perform?
 
+Clothing:
+Product ID:		C0001
+Quantity:		20
+Unit Price:		$39.95
+Total Cost:		$799.00
+Size:			Small
+Color:			White
 
-Country:	Germany
-Manufacturer:	Volkswagen
-Brand:		Passat
-Year:		2012
-Color:		Blue
-Price:		25135.0
+
+Food:
+Product ID:		F0001
+Quantity:		100
+Unit Price:		$0.21
+Total Cost:		$22.68
+Food Name:		Banana
+Damage Rate:		8.00%
+Expiration date:	09.28.2015
+
+
+Food:
+Product ID:		F0002
+Quantity:		300
+Unit Price:		$0.05
+Total Cost:		$16.36
+Food Name:		Orange
+Damage Rate:		9.10%
+Expiration date:	10.07.2015
 
 What action would you like to perform?
-Unknown action
+Please enter a productId to search:
+product found
 What action would you like to perform?
-Choice		Action
-------		------
-A		Add a Car
-D		Display Car
-Q		Quit
-?		Display Help
-
+Please enter a productId to search:
+product found
 What action would you like to perform?
-Please enter the car information:
-Who is the car's manufacturer?
-What is the car brand?
-Which country is the car made?
-what year was the car made?
-What color is the car?
-How much was the car's price?
+Please enter a productId to search:
+product not found
 What action would you like to perform?
 
+Clothing:
+Product ID:		C0001
+Quantity:		20
+Unit Price:		$39.95
+Total Cost:		$799.00
+Size:			Small
+Color:			White
 
-Country:	USA
-Manufacturer:	Tesla
-Brand:		ModelS
-Year:		2015
-Color:		Black
-Price:		75000.89
+
+Food:
+Product ID:		F0001
+Quantity:		100
+Unit Price:		$0.21
+Total Cost:		$22.68
+Food Name:		Banana
+Damage Rate:		8.00%
+Expiration date:	09.28.2015
+
+
+Food:
+Product ID:		F0002
+Quantity:		300
+Unit Price:		$0.05
+Total Cost:		$16.36
+Food Name:		Orange
+Damage Rate:		9.10%
+Expiration date:	10.07.2015
 
 What action would you like to perform?

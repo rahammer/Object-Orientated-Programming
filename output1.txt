@@ -1,26 +1,36 @@
 Choice		Action
 ------		------
-A		Add a Car
-D		Display Car
+A		Add Product
+C		Compute Total Costs
+S		Search for Product
+L		List Products
 Q		Quit
 ?		Display Help
 
 What action would you like to perform?
-Please enter the car information:
-Who is the car's manufacturer?
-What is the car brand?
-Which country is the car made?
-what year was the car made?
-What color is the car?
-How much was the car's price?
+Please enter a product information to add:
 What action would you like to perform?
 
+Food:
+Product ID:		F0021
+Quantity:		100
+Unit Price:		$0.38
+Total Cost:		$0.00
+Food Name:		Lemon
+Damage Rate:		12.40%
+Expiration date:	10.01.2015
 
-Country:	USA
-Manufacturer:	Ford	
-Brand:		Explorer		
-Year:		2015
-Color:		Silver
-Price:		30700.82
+What action would you like to perform?
+total costs computed
+What action would you like to perform?
+
+Food:
+Product ID:		F0021
+Quantity:		100
+Unit Price:		$0.38
+Total Cost:		$42.71
+Food Name:		Lemon
+Damage Rate:		12.40%
+Expiration date:	10.01.2015
 
 What action would you like to perform?

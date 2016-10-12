@@ -1,9 +1,6 @@
 A
-Ford	
-Explorer		
-USA
-2015
-Silver
-30700.82
-D
+Food/F0021/100/0.38/Lemon/0.124/10.01.2015
+L
+C
+L
 Q
