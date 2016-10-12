@@ -1,0 +1,4 @@
+The minimum integer is -5
+The sum of the positive integers is 19
+The sum of the odd integers is 9
+The count of positive integers in the sequence is 3
