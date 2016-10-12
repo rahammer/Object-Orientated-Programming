@@ -40,40 +40,35 @@ What action would you like to perform?
 Please enter the food category to add:
 Please enter the food's name to add:
 Please enter the food ID to add:
+Food Id is not entered as integer. Food not added
+What action would you like to perform?
+Please enter the food category to add:
+Please enter the food's name to add:
+Please enter the food ID to add:
 Food added
 What action would you like to perform?
-Category: Vegie		Name: Celery		ID: 30024
-Category: Dairy		Name: Milk		ID: 30001
-Category: Vegie		Name: Brocolli		ID: 20032
-Category: Fruit		Name: Orange		ID: 10014
-Category: Fruit		Name: Apple		ID: 10025
+[Category: Fruit		Name: Orange		ID: 30014
+, Category: Vegie		Name: Brocolli		ID: 20032
+, Category: Fruit		Name: Apple		ID: 10025
+, Category: Dairy		Name: Milk		ID: 30001
+, Category: Dairy		Name: Butter		ID: 30024
+]What action would you like to perform?
+Please enter the food category to add:
+Please enter the food's name to add:
+Please enter the food ID to add:
+Food added
 What action would you like to perform?
-sorted by id
+Please enter a food category to search:
+Please enter a food name to search:
+category and name not found
 What action would you like to perform?
-Category: Fruit		Name: Orange		ID: 10014
-Category: Fruit		Name: Apple		ID: 10025
-Category: Vegie		Name: Brocolli		ID: 20032
-Category: Dairy		Name: Milk		ID: 30001
-Category: Vegie		Name: Celery		ID: 30024
+Please enter a food category to search:
+Please enter a food name to search:
+category and name not found
 What action would you like to perform?
-Please enter a food ID to remove:
-ID removed
+Please enter a food id to search:
+Food not found
 What action would you like to perform?
-Category: Fruit		Name: Orange		ID: 10014
-Category: Fruit		Name: Apple		ID: 10025
-Category: Vegie		Name: Brocolli		ID: 20032
-Category: Dairy		Name: Milk		ID: 30001
-What action would you like to perform?
-Please enter a food ID to remove:
-ID not found
-What action would you like to perform?
-sorted by categories and names
-What action would you like to perform?
-Please enter a category to remove:
-Please enter a name to remove:
-category and name removed
-What action would you like to perform?
-Category: Fruit		Name: Apple		ID: 10025
-Category: Fruit		Name: Orange		ID: 10014
-Category: Vegie		Name: Brocolli		ID: 20032
+Please enter a food id to search:
+Food not found
 What action would you like to perform?
